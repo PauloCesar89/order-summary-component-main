@@ -48,7 +48,7 @@ p {
     width: 310px;
     height: 50px;
     padding: 20px 20px;
-    border-radius: 16px;
+    border-radius: 10px;
     justify-content: space-between;
     margin: 0 30px;
     
@@ -59,8 +59,50 @@ p {
     align-items: center;
     padding: 0px;
     margin-right: 110px;
-
-    
 }
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+.plano a:hover {
+    color:hsl(223, 47%, 23%)
+}
+
+button{
+    background: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;   
+    padding-left: 110px;
+    height: 40px;
+    align-items: center;
+    font-weight: 600;
+    width: 85%;  
+    border: none;
+    margin: 16px 16px 45px 30px;
+
+}
+
+button:hover {
+    background: hsl(223, 47%, 23%);
+    transition: all 0.4s;
+}
+
+.cancelar-ordem{
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+    padding-left: 160px;
+    
+
+}
+
+
+
+
+
+
 
 /*border: 1px solid red;*/
