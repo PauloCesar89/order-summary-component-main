@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Red Hat Display;
-    font-size: 16px;
+    font-family: "Red Hat Display", sans-serif;
+    
 }
 
 body{
@@ -61,7 +61,7 @@ p {
     display: flex;
     align-items: center;
     padding: 0px;
-    margin-right: 110px;
+    margin-right: 85px;
 }
 
 a {
@@ -85,24 +85,23 @@ button{
     width: 85%;  
     border: none;
     margin: 16px 16px 45px 30px;
+    box-shadow: 0px 20px 20px rgba(56, 45, 255, 0.3);
 }
 
 button:hover {
-    background: hsl(223, 47%, 23%);
+    background: hsl(223, 60%, 68%);
     transition: all 0.4s;
+    color: black;
 }
 
 .cancelar-ordem{
     text-decoration: none;
     font-weight: bold;
-    color: hsl(224, 23%, 55%);
+    color: hsl(224, 34%, 51%);
     padding-left: 160px;
 }
 
-
-
-
-
-
-
-/*border: 1px solid red;*/
+span{
+    color:hsl(224, 23%, 55%);
+    margin-top: 5px;
+}
