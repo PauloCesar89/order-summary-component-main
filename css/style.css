@@ -8,7 +8,8 @@
 body{
     background: hsl(225, 100%, 98%);
     padding-left: 450px;
-    padding-top: 10px;
+    padding-top: 650px;
+    position: relative;
 }
 
 main{
@@ -17,6 +18,10 @@ main{
     max-width: 415px;
     border-radius: 16px;
     height: 630px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .imagem-principal{
@@ -32,10 +37,9 @@ main{
     font-size: 40px;
 }
 
-p {
-    
+p {   
     color: hsl(224, 23%, 55%);
-    width: 80%;
+    width: 75%;
     text-align: center;
     padding-left: 50px;
     margin-bottom: 20px;
@@ -45,13 +49,12 @@ p {
     display: flex;
     align-items: center;
     background: hsl(225, 100%, 98%); 
-    width: 310px;
+    width: 315px;
     height: 50px;
     padding: 20px 20px;
     border-radius: 10px;
     justify-content: space-between;
-    margin: 0 30px;
-    
+    margin: 0 30px 40px 30px; 
 }
 
 .dados-plano{
@@ -82,7 +85,6 @@ button{
     width: 85%;  
     border: none;
     margin: 16px 16px 45px 30px;
-
 }
 
 button:hover {
@@ -95,8 +97,6 @@ button:hover {
     font-weight: bold;
     color: hsl(224, 23%, 55%);
     padding-left: 160px;
-    
-
 }
 
 
